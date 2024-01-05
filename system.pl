@@ -14,6 +14,8 @@ mailr.bmhm.sbs => CREATE full-barrier function(e){
  $message => Pod::Block::Comment=> url.href="https://nahidhk.info/mail.php"
  => link "https://www.mailr.bmhm.sbs/"{$set_key}=>w.we key => (verify);
  target => user;
+ 
+ $form: =>'verify@no-reply.nahidhk'
 }
 
 
