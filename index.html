@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mail Verify</title>
+</head>
+
+<body>
+<section id="Ebox" class="e-box">
+  <br>
+ <span>Email Verify</span>
+ <br><br>
+ <center>
+ <form action="http://mailr.bmhm.sbs/email.php" method="POST" onsubmit="submitForm()">
+<div class="e-sh">
+  <i class="bi bi-envelope"></i>
+  <label for="email"></label>
+  <input placeholder="Enter Your Email" type="email" id="email" name="email" required>
+</div>
+<button type="submit" class="e-sh btn">Verify Email <i class="bi bi-arrow-right"></i></button>
+ </form>
+
+ </center>
+
+</section>
+
+<!--- user data app --->
+<section id="user8" class="user">
+  <center>
+    <h1>Your Email Verified!</h1>
+    <p>Your Mail is : <span id="smail"></span></p>
+    
+    <p>Your IP address: <span id="ip"></span></p>
+  </center>
+  <!--- ip topic-->
+  <blockquote>
+    
+    <p>IP : <span id="ip1"></span></p>
+    <p>City : <span id="city"></span></p>
+    <p>Region: <span id="region"></span></p>
+    <p>Country: <span id="country"></span></p>
+    <p>Location: <span id="loc"></span></p>
+    <p>Postal Code: <span id="postal"></span></p>
+    <p id="timezone">Timezone: <span id="timezoneSpan"></span></p>
+  </blockquote>
+  
+</section>
+
+
+
+
+<script src="servers.js"></script>
+</body>
+
+</html>
